@@ -1,0 +1,50 @@
+@keyframes backgroundColorPalette {
+    0% {
+      background: #ee6055;
+    }
+    25% {
+      background: hsl(147, 57%, 60%);
+    }
+    50% {
+      background: #aaf683;
+    }
+    75% {
+      background: #ffd97d;
+    }
+    100% {
+      background: #ff9b85;
+    }
+  }
+body {
+    animation-name: backgroundColorPalette;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.converter {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
